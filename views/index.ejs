@@ -4,7 +4,7 @@
       <p>HODLINFO<span class="com">.com</span></p>
       <p class="powered">Powered by <span class="comp">Finstreet</span></p>
     </div>
-    <select id="course" name="inr" required>
+    <!-- <select id="course" name="inr" required>
       <option value="price"><p>INR</p></option>
       <option value="kdln">C++</option>
       <option value="kaf">Java</option>
@@ -15,7 +15,11 @@
         <option value="vmsmcv">C++</option>
         <option value="dfd">Java</option>
         <option value="dfkfgd">Android Development</option>
-    </select>
+    </select> -->
+    <button class="btn" name="button">INR ▿</button>
+    <button class="btn2" name="button">BTC ▿</button>
+    <!-- <p class="course">INR</p>
+    <p class="course2">BTC</p> -->
     <p class="number">58</p>
     <button class="btn-edit" type="submit" name="button"><span class="telegram"><i class="fab fa-telegram-plane"></i> Connect Telegram</span></button>
     <div class="button-round">
@@ -26,7 +30,7 @@
    </div>
   </div>
   <form action="/" method="post">
-    <table style="width:100%; cell-spacing:0; cell-padding:0; border:0;">
+    <table>
         <tr>
           <th class="name-2">#</th>
           <th class="name-2">name</th>
@@ -36,20 +40,84 @@
           <th class="name-2">base_unit</th>
         </tr>
         <tr class="row">
-          <th class="name">1</th>
-          <th class="name">BTC/INR</th>
-          <th class="name"><%= last1 %></th>
-          <th class="name"><%= buy1 %>/<%= sell1 %></th>
-          <th class="name"><%= volume1 %></th>
-          <th class="name"><%= base_unit1 %></th>
+          <td>1</td>
+          <td>BTC/INR</td>
+          <td><%= last1 %></td>
+          <td>&#8377;<%= buy1 %>/&#8377;<%= sell1 %></td>
+          <td><%= volume1 %></td>
+          <td><%= base_unit1 %></td>
         </tr>
         <tr class="row">
-          <th class="name">2</th>
-          <th class="name">XRP/INR</th>
-          <th class="name"><%= last2 %></th>
-          <th class="name"><%= buy2 %>/<%= sell2 %></th>
-          <th class="name"><%= volume2 %></th>
-          <th class="name"><%= base_unit2 %></th>
+          <td>2</td>
+          <td>XRP/INR</td>
+          <td><%= last2 %></td>
+          <td>&#8377;<%= buy2 %>/&#8377;<%= sell2 %></td>
+          <td><%= volume2 %></td>
+          <td><%= base_unit2 %></td>
+        </tr>
+        <tr class="row">
+          <td>3</td>
+          <td>ETH/INR</td>
+          <td><%= last3 %></td>
+          <td>&#8377;<%= buy3 %>/&#8377;<%= sell3 %></td>
+          <td><%= volume3 %></td>
+          <td><%= base_unit3 %></td>
+        </tr>
+        <tr class="row">
+          <td>4</td>
+          <td>TRX/INR</td>
+          <td><%= last4 %></td>
+          <td>&#8377;<%= buy4 %>/&#8377;<%= sell4 %></td>
+          <td><%= volume4 %></td>
+          <td><%= base_unit4 %></td>
+        </tr>
+        <tr class="row">
+          <td>5</td>
+          <td>EOS/INR</td>
+          <td><%= last5 %></td>
+          <td>&#8377;<%= buy5 %>/&#8377;<%= sell5 %></td>
+          <td><%= volume5 %></td>
+          <td><%= base_unit5 %></td>
+        </tr>
+        <tr class="row">
+          <td>6</td>
+          <td>ZIL/INR</td>
+          <td><%= last6 %></td>
+          <td>&#8377;<%= buy6 %>/&#8377;<%= sell6 %></td>
+          <td><%= volume6 %></td>
+          <td><%= base_unit6 %></td>
+        </tr>
+        <tr class="row">
+          <td>7</td>
+          <td>BAT/INR</td>
+          <td><%= last7 %></td>
+          <td>&#8377;<%= buy7 %>/&#8377;<%= sell7 %></td>
+          <td><%= volume7 %></td>
+          <td><%= base_unit7 %></td>
+        </tr>
+        <tr class="row">
+          <td>8</td>
+          <td>USDT/INR</td>
+          <td><%= last8 %></td>
+          <td>&#8377;<%= buy8 %>/&#8377;<%= sell8 %></td>
+          <td><%= volume8 %></td>
+          <td><%= base_unit8 %></td>
+        </tr>
+        <tr class="row">
+          <td>9</td>
+          <td>WRX/INR</td>
+          <td><%= last9 %></td>
+          <td>&#8377;<%= buy9 %>/&#8377;<%= sell9 %></td>
+          <td><%= volume9 %></td>
+          <td><%= base_unit9 %></td>
+        </tr>
+        <tr class="row">
+          <td>10</td>
+          <td>MATIC/INR</td>
+          <td><%= last10 %></td>
+          <td>&#8377;<%= buy10 %>/&#8377;<%= sell10 %></td>
+          <td><%= volume10 %></td>
+          <td><%= base_unit10 %></td>
         </tr>
     </table>
   </form>
