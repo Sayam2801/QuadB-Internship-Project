@@ -26,32 +26,30 @@
    </div>
   </div>
   <form action="/" method="post">
-    <table style="width:100%">
+    <table style="width:100%; cell-spacing:0; cell-padding:0; border:0;">
         <tr>
-          <th>#</th>
-          <th>name</th>
-          <th>Last</th>
-          <th>Buy/Sell Price</th>
-          <th>volume</th>
-          <th>base_unit</th>
+          <th class="name-2">#</th>
+          <th class="name-2">name</th>
+          <th class="name-2">Last</th>
+          <th class="name-2">Buy/Sell Price</th>
+          <th class="name-2">volume</th>
+          <th class="name-2">base_unit</th>
         </tr>
-        <tr>
-          <th>1</th>
-          <th><%= name1 %></th>
-          <th><%= last1 %></th>
-          <th><%= buy1 %></th>
-          <th><%= sell1 %></th>
-          <th><%= volume1 %></th>
-          <th><%= base_unit1 %></th>
+        <tr class="row">
+          <th class="name">1</th>
+          <th class="name">BTC/INR</th>
+          <th class="name"><%= last1 %></th>
+          <th class="name"><%= buy1 %>/<%= sell1 %></th>
+          <th class="name"><%= volume1 %></th>
+          <th class="name"><%= base_unit1 %></th>
         </tr>
-        <tr>
-          <th>2</th>
-          <th><%= name2 %></th>
-          <th><%= last2 %></th>
-          <th><%= buy2 %></th>
-          <th><%= sell2 %></th>
-          <th><%= volume2 %></th>
-          <th><%= base_unit2 %></th>
+        <tr class="row">
+          <th class="name">2</th>
+          <th class="name">XRP/INR</th>
+          <th class="name"><%= last2 %></th>
+          <th class="name"><%= buy2 %>/<%= sell2 %></th>
+          <th class="name"><%= volume2 %></th>
+          <th class="name"><%= base_unit2 %></th>
         </tr>
     </table>
   </form>

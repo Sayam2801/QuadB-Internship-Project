@@ -19,6 +19,7 @@ p {
 .powered {
   color:#52615f;
   font-size:0.9rem;
+  margin-bottom:3rem;
 }
 .comp {
   color:#29998e;
@@ -129,4 +130,17 @@ input:checked + .slider:before {
 .button-round {
   margin-top:2.2rem;
   margin-left:2rem;
+}
+.name {
+  color:#646e6c;
+  text-align: center;
+}
+.name-2 {
+  color:#646e6c;
+  font-size:1.5rem;
+  text-align: center;
+}
+.row {
+  background-color: #454d4b;
+  border-spacing: 0;
 }
